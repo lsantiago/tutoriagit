@@ -11,10 +11,11 @@ package clase15.reloj;
  */
 public class MainReloj {
     public static void main(String[] args) {
-        Reloj reloj = new Reloj(12, -6, 6);
+        Reloj reloj = new Reloj(18, -6, 6);
         
-        reloj.setHora(7);
+        //reloj.setHora(7);
         
         System.out.println(reloj.mostrarTiempo24Horas());
+        System.out.println(reloj.mostrarTiempo12Horas());
     }
 }
