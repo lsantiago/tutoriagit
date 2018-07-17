@@ -12,7 +12,7 @@ package clase15.reloj;
 public class Reloj {
     private int hora;
     private int minuto;
-    private int segundo;
+    private int segundo
 
     public Reloj() {
         this(1, 1, 1);
